@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Cum sa instalezi dependente
+
+```
+npm install
+```
+
+Dupa aceea rulati `npm start`, iar proiectul va porni la adresa `https://localhost:3000`.
+
 ## Available Scripts
 
 In the project directory, you can run:
