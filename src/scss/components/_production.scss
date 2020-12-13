@@ -1,0 +1,79 @@
+.production {
+    width: 100%;
+    // height: 100vh;
+    // position: relative;
+    
+    &-header {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-bottom: 15rem;
+
+        &-img {
+            width: 100%;
+            height: 100%;
+            background: url('../../img/earth-pic.jpeg') no-repeat center center/cover;
+        }
+
+        &-title {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: $whiteColor;
+            font-size: 4rem;
+            font-weight: 100;
+        }
+    }
+
+    &-cars {
+        position: absolute;
+        top: 70%;
+        left: 0;
+        width: 100%;
+        // height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    &-energy {
+        width: 100%;
+        border-top: 4px solid #bbb;
+
+        &-section {
+            width: 100%;
+            height: 20rem;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-bottom: 4px solid #bbb;
+
+            &-img {
+                width: 20%;
+                height: 80%;
+                
+                &-1 {
+                    background: url('../../img/energy/solar_power.jpg') no-repeat center center/cover;
+                }
+                &-2 {
+                    background: url('../../img/energy/wind_power.jpg') no-repeat center center/cover;
+                }
+                &-3 {
+                    background: url('../../img/energy/water_power.jpg') no-repeat center center/cover;
+                }
+            }
+
+            &-text {
+                width: 70%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                justify-content: space-evenly;
+                text-align: left;
+            }
+        }
+    }
+}

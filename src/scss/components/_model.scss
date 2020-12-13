@@ -1,0 +1,214 @@
+.model {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    z-index: 11;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &-s {
+        background: url("../../img/model-S.jpg") no-repeat fixed center center/cover;
+    }
+    &-3 {
+        background: url("../../img/model-3.jpg") no-repeat fixed center center/cover;
+    }
+    &-x {
+        background: url("../../img/model-x.jpg") no-repeat fixed center center/cover;
+    }
+    &-y {
+        background: url("../../img/model-y.jpg") no-repeat fixed center center/cover;
+    }
+    
+    &-logo {
+        width: 180px;
+        height: 35px;
+        background: url("../../img/tesla-icon-2.jpg") no-repeat center center/cover;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: all .3s;
+    }
+
+    &-logo:hover {
+        width: 185px;
+    }
+
+    &-page {
+        width: 80%;
+        height: 100%;
+        margin: 10px 0;
+        background-color: $whiteColor;
+        position: absolute;
+    }
+
+    &-text {
+        
+        width: 100%;
+        // height: 100vh;
+        position: absolute;
+        top: 10%;
+        left: 0;       
+        
+
+        &-title {
+            width: 100%;
+            height: 5rem;
+            background-color: $blackColor;
+            color: $whiteColor;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-para {
+            width: 100%;
+            background-color: $whiteColor;
+        }
+    }
+
+    &-galery {
+        width: 100%;
+        height: 72%;
+        position: absolute;
+        top: 25%;
+        left: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+        padding: 0 25px;
+
+        &-img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            transition: all .3s;
+            
+            &:hover {
+                transform: scale(1.1);
+            }
+            
+            
+        }
+    }
+
+}
+
+#img-1-3 {
+    background: url("../../img/model-3/p1.jpg") no-repeat center center/cover;
+}
+#img-2-3 {
+    background: url("../../img/model-3/p2.jpg") no-repeat center center/cover;
+}
+#img-3-3 {
+    background: url("../../img/model-3/p3.jpg") no-repeat center center/cover;
+}
+#img-4-3 {
+    background: url("../../img/model-3/p4.jpg") no-repeat center center/cover;
+}
+#img-5-3 {
+    background: url("../../img/model-3/p5.jpg") no-repeat center center/cover;
+}
+#img-6-3 {
+    background: url("../../img/model-3/p6.jpg") no-repeat center center/cover;
+}
+#img-7-3 {
+    background: url("../../img/model-3/p7.jpg") no-repeat center center/cover;
+}
+#img-8-3 {
+    background: url("../../img/model-3/p8.jpg") no-repeat center center/cover;
+}
+#img-9-3 {
+    background: url("../../img/model-3/p9.jpg") no-repeat center center/cover;
+}
+
+
+#img-1-s {
+    background: url("../../img/model-s/p1.jpg") no-repeat center center/cover;
+}
+#img-2-s {
+    background: url("../../img/model-s/p2.jpg") no-repeat center center/cover;
+}
+#img-3-s {
+    background: url("../../img/model-s/p3.jpg") no-repeat center center/cover;
+}
+#img-4-s {
+    background: url("../../img/model-s/p4.jpg") no-repeat center center/cover;
+}
+#img-5-s {
+    background: url("../../img/model-s/p5.jpg") no-repeat center center/cover;
+}
+#img-6-s {
+    background: url("../../img/model-s/p6.jpg") no-repeat center center/cover;
+}
+#img-7-s {
+    background: url("../../img/model-s/p7.jpg") no-repeat center center/cover;
+}
+#img-8-s {
+    background: url("../../img/model-s/p8.jpg") no-repeat center center/cover;
+}
+#img-9-s {
+    background: url("../../img/model-s/p9.jpg") no-repeat center center/cover;
+}
+
+
+#img-1-x {
+    background: url("../../img/model-x/p1.jpg") no-repeat center center/cover;
+}
+#img-2-x {
+    background: url("../../img/model-x/p2.jpg") no-repeat center center/cover;
+}
+#img-3-x {
+    background: url("../../img/model-x/p3.jpg") no-repeat center center/cover;
+}
+#img-4-x {
+    background: url("../../img/model-x/p4.jpg") no-repeat center center/cover;
+}
+#img-5-x {
+    background: url("../../img/model-x/p5.jpg") no-repeat center center/cover;
+}
+#img-6-x {
+    background: url("../../img/model-x/p6.jpg") no-repeat center center/cover;
+}
+#img-7-x {
+    background: url("../../img/model-x/p7.jpg") no-repeat center center/cover;
+}
+#img-8-x {
+    background: url("../../img/model-x/p8.jpg") no-repeat center center/cover;
+}
+#img-9-x {
+    background: url("../../img/model-x/p9.jpg") no-repeat center center/cover;
+}
+
+
+#img-1-y {
+    background: url("../../img/model-y/p1.jpg") no-repeat center center/cover;
+}
+#img-2-y {
+    background: url("../../img/model-y/p2.jpg") no-repeat center center/cover;
+}
+#img-3-y {
+    background: url("../../img/model-y/p3.jpg") no-repeat center center/cover;
+}
+#img-4-y {
+    background: url("../../img/model-y/p4.jpg") no-repeat center center/cover;
+}
+#img-5-y {
+    background: url("../../img/model-y/p5.jpg") no-repeat center center/cover;
+}
+#img-6-y {
+    background: url("../../img/model-y/p6.jpg") no-repeat center center/cover;
+}
+#img-7-y {
+    background: url("../../img/model-y/p7.jpg") no-repeat center center/cover;
+}
+#img-8-y {
+    background: url("../../img/model-y/p8.jpg") no-repeat center center/cover;
+}
+#img-9-y {
+    background: url("../../img/model-y/p9.jpg") no-repeat center center/cover;
+}
+
+

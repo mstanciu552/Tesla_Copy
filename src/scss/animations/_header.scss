@@ -1,0 +1,35 @@
+@keyframes intro-title {
+    0% {
+        left: 40%;
+        color: rgba(51, 51, 51, 0.2);
+    }
+    100% {
+        left: 50%;
+        color: $blackColor;
+    }
+}
+
+@keyframes intro-subtitle {
+    0% {
+        top: 30%;
+        color: rgba(51, 51, 51, 0.2);
+    }
+    100% {
+        top: 25%;
+        color: $blackColor;
+    }
+}
+
+@keyframes up-down-arrow {
+    0% {
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: 1%;
+    }
+
+    100% {
+        bottom: 2%;
+    }
+}

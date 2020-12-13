@@ -1,0 +1,75 @@
+.solar-panels {
+    width: 100%;
+
+    &-container {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+
+        &-right {
+            width: 100%;
+            height: 100%;
+            float: right;
+            background: url("../../img/tesla-solar-panels-1.jpg") no-repeat center center/cover;
+        }
+
+        &-left {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $whiteColor;
+            width: 30%;
+            height: 100%;
+            padding: 10px 20px;
+
+            &-icon {
+                width: 2rem;
+                height: 2rem;
+                position: absolute;
+                bottom: 10%;
+                left: 45%;
+                // transform: translate(-50%, -50%);
+                cursor: pointer;
+            }
+
+            & h3 {
+                color: rgba(51, 51, 51, 0.5);
+                position: absolute;
+                bottom: 5%;
+                left: 40%;
+                cursor: pointer;
+            }
+
+            &-title {
+                text-align: left;
+                font-size: 2.5rem;
+                margin-bottom: 30px;
+                font-weight: 100;
+                & span {
+                    color: rgba(51, 51, 51, 0.7);
+                    font-size: 1.2rem;
+                }
+            }
+
+            &-para {
+                position: absolute;
+                top: 30%;
+            }
+        }
+
+        & h1 {
+            font-weight: 100;
+        }
+
+        &-specs {
+            column-count: 2;
+            column-gap: 20rem;
+            line-height: 30px;
+            font-size: 1.2rem;
+
+            & hr {
+                width: 2rem;
+            }
+        }
+    }
+}

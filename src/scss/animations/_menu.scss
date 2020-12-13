@@ -1,0 +1,8 @@
+@keyframes menu-open {
+    0% {
+        transform: translateX(30rem);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
